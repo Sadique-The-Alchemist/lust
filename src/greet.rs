@@ -5,15 +5,7 @@ pub mod greet {
     const HELLO_IN_ENGLISH: &str = "Hello, ";
     const HELLO_IN_SPANISH: &str = "Hola, ";
     const HELLO_IN_FRENCH: &str = "Bonjor, ";
-    // pub fn hello(mut name: &str) -> String {
-    //     if name == "" {
-    //         name = "World";
-    //     }
 
-    //     let mut greet = String::from(HELLO_IN_ENGLISH);
-    //     greet.push_str(name);
-    //     return greet;
-    // }
     pub fn hello(mut name: &str, lang: &str) -> String {
         if name == "" {
             name = "World";
