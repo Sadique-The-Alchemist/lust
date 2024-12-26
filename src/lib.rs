@@ -1,4 +1,5 @@
 pub mod bitcoin;
+pub mod dictionary;
 pub mod greet;
 pub mod repeat;
 pub mod shapes;
