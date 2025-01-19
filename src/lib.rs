@@ -1,4 +1,5 @@
 pub mod bitcoin;
+pub mod concurrency;
 pub mod dictionary;
 pub mod greet;
 pub mod repeat;
